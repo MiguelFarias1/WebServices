@@ -16,8 +16,11 @@ packages/
 *.pubxml
 *.publishsettings
 
-# Arquivos JSON
-*.json
+# Arquivos JSON dentro da pasta APICatalogo
+APICatalogo/*.json
 
-# Arquivos de projeto
-*.csproj
+# Arquivos de projeto .csproj dentro da pasta APICatalogo
+APICatalogo/*.csproj
+
+# Arquivos HTTP (por exemplo, requisições e respostas HTTP) dentro da pasta APICatalogo
+APICatalogo/*.http
