@@ -14,7 +14,7 @@ public class ProductController(IUnitOfWork uof, ILogger<ProductController> logge
     public async Task<ActionResult<List<ProductDTO>>> GetAll()
     {
         var products = await uof.ProductRepository.GetAllAsync();
-
+         
         if (products is null)
         {
             logger.LogWarning("Products is null!");

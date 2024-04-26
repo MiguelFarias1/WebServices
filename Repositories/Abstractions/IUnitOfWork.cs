@@ -1,4 +1,5 @@
 ﻿using APICatalogo.Models;
+using APICatalogo.Repositories.Implementation;
 
 namespace APICatalogo.Repositories.Abstractions;
 
